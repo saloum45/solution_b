@@ -161,6 +161,8 @@
                     include("/xampp/htdocs/solution_b/pages/ligneCommande/listerLigneCommande.php");
                 }else if($affichage=="modifierLigneCommande"){
                     include("/xampp/htdocs/solution_b/pages/ligneCommande/modifierLigneCommande.php");
+                }else if($affichage=="image"){
+                    include("/xampp/htdocs/solution_b/image.php");
                 }
             }
         ?>

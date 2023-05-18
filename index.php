@@ -9,7 +9,7 @@ if (isset($_POST['submit'])) {
         $insert->execute();
         if ($insert->rowCount() > 0) {
             $_SESSION['login'] = $login;
-            header("location:pageAccueil.php");
+            header("location:pageAccueil.php?affichage=image");
         } else {
             # code...
             header("location:index.php?msg=veuillez saisir des infromations correctes ");
